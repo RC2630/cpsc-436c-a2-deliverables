@@ -1,0 +1,39 @@
+2024-10-16 04:19:30.270598: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-16 04:19:30.445043: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2024-10-16 04:19:30.445084: I tensorflow/compiler/xla/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-10-16 04:19:31.536044: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-16 04:19:31.536441: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-16 04:19:31.536468: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Downloading data from https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+170498071/170498071 [==============================] - 2s 0us/step
+2024-10-16 04:19:40.245919: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2024-10-16 04:19:40.245976: W tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:265] failed call to cuInit: UNKNOWN ERROR (303)       
+2024-10-16 04:19:40.246499: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (d3a12d4cf6a6): /proc/driver/nvidia/version does not exist
+2024-10-16 04:19:40.250946: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-16 04:19:41.849228: W tensorflow/tsl/framework/cpu_allocator_impl.cc:82] Allocation of 614400000 exceeds 10% of free system memory.
+Epoch 1/10
+1562/1563 [============================>.] - ETA: 0s - loss: 1.5224 - accuracy: 0.44512024-10-16 04:20:39.725699: W tensorflow/tsl/framework/cpu_allocator_impl.cc:82] Allocation of 122880000 exceeds 10% of free system memory.
+1563/1563 [==============================] - 61s 38ms/step - loss: 1.5224 - accuracy: 0.4451 - val_loss: 1.3736 - val_accuracy: 0.5131
+Epoch 2/10
+1563/1563 [==============================] - 61s 39ms/step - loss: 1.1681 - accuracy: 0.5867 - val_loss: 1.0866 - val_accuracy: 0.6175
+Epoch 3/10
+1563/1563 [==============================] - 58s 37ms/step - loss: 1.0156 - accuracy: 0.6444 - val_loss: 1.0106 - val_accuracy: 0.6472
+Epoch 4/10
+1563/1563 [==============================] - 62s 40ms/step - loss: 0.9080 - accuracy: 0.6813 - val_loss: 0.9170 - val_accuracy: 0.6774
+Epoch 5/10
+1563/1563 [==============================] - 59s 37ms/step - loss: 0.8308 - accuracy: 0.7111 - val_loss: 0.9141 - val_accuracy: 0.6823
+Epoch 6/10
+1563/1563 [==============================] - 60s 39ms/step - loss: 0.7643 - accuracy: 0.7322 - val_loss: 0.8814 - val_accuracy: 0.6964
+Epoch 7/10
+1563/1563 [==============================] - 58s 37ms/step - loss: 0.7041 - accuracy: 0.7545 - val_loss: 0.8655 - val_accuracy: 0.7062
+Epoch 8/10
+1563/1563 [==============================] - 58s 37ms/step - loss: 0.6572 - accuracy: 0.7686 - val_loss: 0.8647 - val_accuracy: 0.7063
+Epoch 9/10
+1563/1563 [==============================] - 59s 38ms/step - loss: 0.6131 - accuracy: 0.7859 - val_loss: 0.8871 - val_accuracy: 0.7094
+Epoch 10/10
+1563/1563 [==============================] - 58s 37ms/step - loss: 0.5717 - accuracy: 0.7982 - val_loss: 0.9077 - val_accuracy: 0.7081
+2024-10-16 04:29:38.010370: W tensorflow/tsl/framework/cpu_allocator_impl.cc:82] Allocation of 122880000 exceeds 10% of free system memory.
+313/313 - 3s - loss: 0.9077 - accuracy: 0.7081 - 3s/epoch - 11ms/step
+Test accuracy: 0.7081000208854675
