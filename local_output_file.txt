@@ -1,0 +1,24 @@
+c:\Users\lucas\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\convolutional\base_conv.py:107: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Epoch 1/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 12s 7ms/step - accuracy: 0.3506 - loss: 1.7585 - val_accuracy: 0.5461 - val_loss: 1.2668
+Epoch 2/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 10s 7ms/step - accuracy: 0.5727 - loss: 1.2077 - val_accuracy: 0.6185 - val_loss: 1.0876
+Epoch 3/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 10s 7ms/step - accuracy: 0.6356 - loss: 1.0359 - val_accuracy: 0.6415 - val_loss: 1.0205
+Epoch 4/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 11s 7ms/step - accuracy: 0.6682 - loss: 0.9460 - val_accuracy: 0.6711 - val_loss: 0.9412
+Epoch 5/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 11s 7ms/step - accuracy: 0.6985 - loss: 0.8583 - val_accuracy: 0.6815 - val_loss: 0.9196
+Epoch 6/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 20s 7ms/step - accuracy: 0.7210 - loss: 0.8011 - val_accuracy: 0.6905 - val_loss: 0.8881
+Epoch 7/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 11s 7ms/step - accuracy: 0.7389 - loss: 0.7475 - val_accuracy: 0.6804 - val_loss: 0.9515
+Epoch 8/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 11s 7ms/step - accuracy: 0.7511 - loss: 0.7106 - val_accuracy: 0.6927 - val_loss: 0.8842
+Epoch 9/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 11s 7ms/step - accuracy: 0.7691 - loss: 0.6647 - val_accuracy: 0.6954 - val_loss: 0.8847
+Epoch 10/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 11s 7ms/step - accuracy: 0.7793 - loss: 0.6283 - val_accuracy: 0.7024 - val_loss: 0.8902
+313/313 - 1s - 3ms/step - accuracy: 0.7024 - loss: 0.8902
+Test accuracy: 0.7024000287055969
